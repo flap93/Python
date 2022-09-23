@@ -73,3 +73,18 @@ print("Your name has " + new_num_char + " characters")
 a = 123
 
 print(type(a))
+
+
+# 🚨 Don't change the code below 👇
+two_digit_number = input("Type a two digit number: ")
+# 🚨 Don't change the code above 👆
+
+####################################
+#Write your code below this line 👇
+
+print(int(two_digit_number[0]) + int(two_digit_number[1]));
+
+# int() casting 
+# to change  a string into a number
+# or 
+#  we can cast using str() to convert a number into a string
