@@ -64,27 +64,51 @@
 
 #Data Types
 
-num_char = len(input("Waht is your name ?\n"))
+# num_char = len(input("Waht is your name ?\n"))
 
-new_num_char = str(num_char)
+# new_num_char = str(num_char)
 
-print("Your name has " + new_num_char + " characters")
+# print("Your name has " + new_num_char + " characters")
 
-a = 123
+# a = 123
 
-print(type(a))
+# print(type(a))
 
+# # 🚨 Don't change the code below 👇
+# two_digit_number = input("Type a two digit number: ")
+# # 🚨 Don't change the code above 👆
+
+# ####################################
+# #Write your code below this line 👇
+
+# print(int(two_digit_number[0]) + int(two_digit_number[1]));
+
+# # int() casting
+# # to change  a string into a number
+# # or
+# #  we can cast using str() to convert a number into a string
+
+#-----------------------------------------------------------------------------------
+
+# PEMDAS ORDER ( PARENTHESIS , EXPONENT , MULTIPLICATION , DIVISION , ADDING , SUBSTRACT)  FROM LEFT OT RIGHT
+
+# ()
+# **
+# * /
+# + -
+
+# -------------------BMI CALCULATOR
 
 # 🚨 Don't change the code below 👇
-two_digit_number = input("Type a two digit number: ")
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
 # 🚨 Don't change the code above 👆
 
-####################################
 #Write your code below this line 👇
 
-print(int(two_digit_number[0]) + int(two_digit_number[1]));
+height_float = float(height)
 
-# int() casting 
-# to change  a string into a number
-# or 
-#  we can cast using str() to convert a number into a string
+BMI = int(weight) / (height_float * height_float)
+
+print(int(BMI))
+  
