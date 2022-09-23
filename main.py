@@ -99,16 +99,57 @@
 
 # -------------------BMI CALCULATOR
 
+# # 🚨 Don't change the code below 👇
+# height = input("enter your height in m: ")
+# weight = input("enter your weight in kg: ")
+# # 🚨 Don't change the code above 👆
+
+# #Write your code below this line 👇
+
+# height_float = float(height)
+
+# BMI = int(weight) / (height_float * height_float)
+
+# print(int(BMI))
+
+#--------------------------------------------
+
+# floor division
+
+print(8 // 3)  # it returns a integer without having to convert it
+
+# round
+
+print(round(8 / 3, 2))  # the 2 its the specification for the decimal places
+
+#------------------------------------------
+#F-STRING
+
+score = 0
+heigth = 1.74
+isWinning = true
+print(
+    f"your score is {score}, your height is {heigth},  you are winning is {isWinning}"
+)
+
 # 🚨 Don't change the code below 👇
-height = input("enter your height in m: ")
-weight = input("enter your weight in kg: ")
+age = input("What is your current age?\n")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
 
-height_float = float(height)
+days_of_ninty = 90 * 365
+age_on_days = int(age) * 365
+total_days = days_of_ninty - age_on_days
 
-BMI = int(weight) / (height_float * height_float)
+weeks_of_ninty = 90 * 52
+age_on_weeks = int(age) * 52
+total_weeks = weeks_of_ninty - age_on_weeks
 
-print(int(BMI))
-  
+months_of_ninty = 90 * 12
+age_on_months = int(age) * 12
+total_months = months_of_ninty - age_on_months
+
+print(
+    f"You have {total_days} days. {total_weeks} weeks, and {total_months} months left"
+)
