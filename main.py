@@ -116,42 +116,42 @@
 
 # floor division
 
-print(8 // 3)  # it returns a integer without having to convert it
+# print(8 // 3)  # it returns a integer without having to convert it
 
-# round
+# # round
 
-print(round(8 / 3, 2))  # the 2 its the specification for the decimal places
+# print(round(8 / 3, 2))  # the 2 its the specification for the decimal places
 
 #------------------------------------------
 #F-STRING
 
-score = 0
-heigth = 1.74
-isWinning = true
-print(
-    f"your score is {score}, your height is {heigth},  you are winning is {isWinning}"
-)
+# score = 0
+# heigth = 1.74
+# isWinning = true
+# print(
+#     f"your score is {score}, your height is {heigth},  you are winning is {isWinning}"
+# )
 
-# 🚨 Don't change the code below 👇
-age = input("What is your current age?\n")
-# 🚨 Don't change the code above 👆
+# # 🚨 Don't change the code below 👇
+# age = input("What is your current age?\n")
+# # 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
-total_days
-days_of_ninty = 90 * 365
-age_on_days = int(age) * 365
-total_days = days_of_ninty - age_on_days
+# #Write your code below this line 👇
+# total_days
+# days_of_ninty = 90 * 365
+# age_on_days = int(age) * 365
+# total_days = days_of_ninty - age_on_days
 
-weeks_of_ninty = 90 * 52
-age_on_weeks = int(age) * 52
-total_weeks = weeks_of_ninty - age_on_weeks
+# weeks_of_ninty = 90 * 52
+# age_on_weeks = int(age) * 52
+# total_weeks = weeks_of_ninty - age_on_weeks
 
-months_of_ninty = 90 * 12
-age_on_months = int(age) * 12
-total_months = months_of_ninty - age_on_months
+# months_of_ninty = 90 * 12
+# age_on_months = int(age) * 12
+# total_months = months_of_ninty - age_on_months
 
-print(
-    f"You have {total_days} days. {total_weeks} weeks, and {total_months} months left"
+# print(
+#     f"You have {total_days} days. {total_weeks} weeks, and {total_months} months left"
 )
 
 #-----------------------------------------------------------
@@ -166,16 +166,51 @@ print(
 
 #Write your code below this line 👇
 
-print("Welcome to the tip calculator!")
-bill = float(input("What is the total bill?\n $"))
-tip = input("How much tip would you like to give ? 10, 12, or 15?")
-people = int(input("How many people to split the bill?\n"))
-tip_as_percent = tip / 100
+# print("Welcome to the tip calculator!")
+# bill = float(input("What is the total bill?\n $"))
+# tip = input("How much tip would you like to give ? 10, 12, or 15?")
+# people = int(input("How many people to split the bill?\n"))
+# tip_as_percent = tip / 100
 
-total_tip_amount = bill * tip_as_percent
-total_bill = bill + total_tip_amount
-bill_per_person = total_bill / people
-final_amount = round(bill_per_person, 2)
-final_amount = "{:.f}".format(bill_per_person)
+# total_tip_amount = bill * tip_as_percent
+# total_bill = bill + total_tip_amount
+# bill_per_person = total_bill / people
+# final_amount = round(bill_per_person, 2)
+# final_amount = "{:.f}".format(bill_per_person)
 
-print(f"Each person should pay ${final_amount}")
+# print(f"Each person should pay ${final_amount}")
+
+
+#------------------------------------------------------------------------------------
+
+
+#CONDITIONAL OPERATORS
+
+
+
+print("Welcome to the rollocoster");
+
+height = int(input("What is your heigth\n"));
+
+if height >= 120:
+  print("You can ride the rollercoaster");
+else:
+  print("You have to grow taller before you can ride")
+
+
+
+# 🚨 Don't change the code below 👇
+number = int(input("Which number do you want to check? "))
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+
+
+if number % 2 == 0:
+    print("this is an even number");
+else:
+    print("This is an odd number");
+
+
+#----------------------------------------------------------
